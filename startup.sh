@@ -15,6 +15,7 @@ if [ -x /usr/bin/git ]; then
     # git exists, so lets pull the config info
     mkdir -p /root/game
     cd /root/game
+    rm -rf retrogame
     git clone https://github.com/dschleede/retrogame.git
     # Lets checkout the production branch
     #git checkout production
