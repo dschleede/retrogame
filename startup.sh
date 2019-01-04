@@ -29,5 +29,6 @@ fi
 
 #######################
 # main code
+kickoff
 exit 0
 #DLS
